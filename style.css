@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+button {
+    width: 240px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: skyblue;
+    color: darkblue;
+    font-size: 28px;
+}
+
+.hovering {
+    background-color: green;
+}
+
+.draw {
+    background-color: blue;
+}
